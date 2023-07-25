@@ -1,8 +1,11 @@
 import math
 import matplotlib.pyplot as plt
 import numpy as np
+import shutil
+import os
 from QuadraticEquation import *
 from LinearEquation import *
+from FileSorter import *
 
 project_name = "PROJECTNAME!"
 
@@ -24,7 +27,11 @@ def listmathprograms():
         welcome()
         
 def listfileprograms():
-    pass
+    print("1-Directory Sorter (will sort your files into folders)")
+    chosenprogram = input("")
+    if chosenprogram == "1":
+        sort_files()
+        welcome()
 
 def welcome():
     print("Welcome to the " + project_name)
