@@ -8,16 +8,19 @@ project_name = "Project NAME!"
 
 def listprograms():
     print("1-Quadratic Equation solving tool")
-    print("2-Linear")
-    print("3-PLACEHOLDER\n")
+    print("2-Solve for Slope using 2 points")
+    print("3-Solve for X or Y intercept")
     
     chosenprogram = input("")
     
     if chosenprogram == "1":
         solveQE()
         welcome()
-    if chosenprogram == "1":
+    if chosenprogram == "2":
         slopesolve()
+        welcome()
+    if chosenprogram == "3":
+        interceptsolve()
         welcome()
 
 def welcome():
