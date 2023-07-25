@@ -1,1 +1,0 @@
-This program will contain all of my utility python scripts and also include a conveinent python file that will help me run them at some point down the line
