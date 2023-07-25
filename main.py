@@ -4,7 +4,7 @@ import numpy as np
 from QuadraticEquation import *
 from LinearEquation import *
 
-project_name = "Project NAME!"
+project_name = "PROJECTNAME!"
 
 def listmathprograms():
     print("1-Quadratic Equation solving tool")
@@ -22,10 +22,22 @@ def listmathprograms():
     if chosenprogram == "3":
         interceptsolve()
         welcome()
+        
+def listfileprograms():
+    pass
 
 def welcome():
     print("Welcome to the " + project_name)
+    program_catergory = input("Math Programs or File Programs (m/f)")
     print("\nPlease Select the program you would like to use by pressing the respective number and pressing enter.\n")
-    listmathprograms()
+    if program_catergory == "m":
+        listmathprograms()
+        
+    if program_catergory == "f":
+        listfileprograms()
+    
+    else:
+        "Please input in the correct format in lowercase, try again."
+        
 
 welcome()
