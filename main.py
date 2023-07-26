@@ -7,7 +7,7 @@ from QuadraticEquation import *
 from LinearEquation import *
 from FileSorter import *
 
-project_name = "PROJECTNAME!"
+project_name = "Spaghetti Project"
 
 def listmathprograms():
     print("1-Quadratic Equation solving tool")
