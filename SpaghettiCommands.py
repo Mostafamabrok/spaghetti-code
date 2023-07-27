@@ -3,7 +3,7 @@ from QuadraticEquation import *
 from LinearEquation import *
 from FileSorter import * 
  
-#This function starts and runs the CLI and checks the use input for commands. NOTE: Better system needed
+#This function starts and runs the command line and checks the use input for commands. NOTE: Better system needed
 def callcommand():
     #This is the where the user inputs their commands
     command = input(": ")
