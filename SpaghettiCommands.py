@@ -2,6 +2,7 @@
 from QuadraticEquation import *
 from LinearEquation import *
 from FileSorter import * 
+from Logarithms import *
  
 #This function starts and runs the command line and checks the use input for commands. NOTE: Better system needed
 def callcommand():
@@ -24,12 +25,19 @@ def callcommand():
         if command2.startswith(" intercept"):
             interceptsolve()
             callcommand()
+            
+        if command2.startswith(" logarithm"):
+            solveLog()
+            callcommand()
+        
+        
     #This if statement checks for file category commands        
     if command.startswith("file"):
         command2 = command.replace("file")
         if command2.startswih(" sort"):
             sort_files()
             callcommand()
+    
             
     
 

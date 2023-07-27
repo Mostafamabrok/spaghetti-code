@@ -7,6 +7,7 @@ from SpaghettiCommands import *
 from QuadraticEquation import *
 from LinearEquation import *
 from FileSorter import *
+from Logarithms import *
 
 #self explanatory 
 project_name = "Spaghetti Project"

@@ -2,6 +2,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
+#This function can only solve one type of logarithm. 
 def solveLog():
     print("Welcome to the Logarithm Solver!")
     log_base = int(input("Input the Logarithmic base (the little number next to the 'Log'):"))
