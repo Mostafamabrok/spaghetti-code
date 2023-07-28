@@ -33,8 +33,8 @@ def callcommand():
         
     #This if statement checks for file category commands        
     if command.startswith("file"):
-        command2 = command.replace("file")
-        if command2.startswih(" sort"):
+        command2 = command.replace("file", "")
+        if command2.startswith(" sort"):
             sort_files()
             callcommand()
     
