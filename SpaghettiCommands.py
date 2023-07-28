@@ -38,5 +38,12 @@ def callcommand():
             sort_files()
             callcommand()
     
+    if command == "end":
+        quit()
+    
+    else:
+        print("Not a valid argument")
+        callcommand()
+    
             
     
