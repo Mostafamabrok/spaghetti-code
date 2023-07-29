@@ -26,7 +26,7 @@ def callcommand():
             interceptsolve()
             callcommand()
             
-        if command2.startswith(" logarithm"):
+        if command2.startswith(" log"):
             solveLog()
             callcommand()
         
