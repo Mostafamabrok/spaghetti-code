@@ -3,7 +3,7 @@ def solveQE():
  import matplotlib.pyplot as plt
  import numpy as np
 
- print("WELCOME TO TO THE ES (Liner/Quadratic Equation solver)\n")
+ print("WELCOME TO TO THE Quadratic Equation solver\n")
 
  print("(Copyright of Mostafa.INC, Developed by by Mostafa Studios)\n")
 
