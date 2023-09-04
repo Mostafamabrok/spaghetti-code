@@ -8,17 +8,7 @@ from Logarithms import *
 #This function starts and runs the command line and checks the use input for commands. NOTE: Better system needed
 def callcommand():
     #This is the where the user inputs their commands
-    command = input(": ")
-    
-#    arguments = {
-#        "solve" : [QE, "slope", "intercept"],
-#        "file" : ["sort"]
-#        }
-
-#    for start_arg in arguments.keys():
-#       if command.startswith(start_arg):
-#            pass
-
+    command = input(": ")    
     #These if statements check for commands by checking what word is written at the start. When it finds a command associated with the word it removes the word and goes on to the next word
     if command.startswith("help"):
         print("Help Guide: \n -An inbuilt help guide for the command line interface is TBA, for more info, go to the Github repo page")
