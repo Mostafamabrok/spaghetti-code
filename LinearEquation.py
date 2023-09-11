@@ -31,10 +31,3 @@ def interceptsolve():
     
     if xory == "y":
         solve_y_intercept()
-        
-
-    
-   
-    
-    
-
