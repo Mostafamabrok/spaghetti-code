@@ -5,7 +5,7 @@ def solveQE():
 
  print("WELCOME TO TO THE Quadratic Equation solver\n")
 
- print("(Copyright of Mostafa.INC, Developed by by Mostafa Studios)\n")
+ print("(Copyright of Mostafa.INC, Developed by by MSTF studios)\n")
 
  print("Let's get started, type your variables!\n")
 
